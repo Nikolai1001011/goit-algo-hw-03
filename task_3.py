@@ -1,6 +1,6 @@
 import re
 def normalize_phone(phone_number):
-    # Видалення всіх символів, крім цифр та '+'
+    # Remove all characters except numbers and '+'
     cleaned_number = re.sub(r'\D', '', phone_number)
     
    #Adding an international code if there is none
